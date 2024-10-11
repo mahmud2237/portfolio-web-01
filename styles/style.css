@@ -98,9 +98,8 @@ nav li a {
 
 /* Main-section-one Start Here... */
 main {
-
-    width: 1140px;
-    height: 1393px;
+    max-width: 1140px;
+    max-height: 3500px;
     padding: 80px 97px;
     margin: 0 auto;
     /* border: 5px solid red; */
@@ -177,4 +176,47 @@ main {
     text-align: left;
     gap: 15%;
 }
+
 /* Main-section-one End here.... */
+
+/* Main-section-two start here.... */
+.main-section-two {
+    margin-top: 90px;
+    /* height: 775px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+
+.main-section-two-1 {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-two-1 h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.main-section-two-1 p {
+    margin-bottom: 40px;
+}
+
+.main-section-two-2 {
+    gap: 10;
+    padding: 32px;
+    margin: 48px 0px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.main-section-two-2 iframe{
+    border-radius: 16px;
+}
+/* Main-section-two End here.... */
+
