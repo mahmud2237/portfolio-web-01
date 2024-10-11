@@ -11,7 +11,7 @@ body {
 }
 
 /* Header start... */
-/* working with the nav container start here */
+/* working with the header nav container start here */
 .header-nav-container ul li {
     list-style: none;
 }
@@ -49,8 +49,9 @@ nav li a {
 
 }
 
-/* working with the nav container end here */
+/* working with the header nav container end here */
 
+/* working with the header div container start here */
 .header-div-section {
     margin-top: 36px;
     background-image: url(../assets/Hero-bg.png);
@@ -59,15 +60,35 @@ nav li a {
     justify-content: flex-start;
     align-items: center;
 }
-.header-div-section img{
+
+.header-div-section img {
     margin-bottom: 32px;
 }
-.header-div-section h1{
+
+.header-div-section h1 {
     margin-bottom: 32px;
 }
-.header-div-section p{
+
+.header-div-section p {
     margin-bottom: 32px;
 }
-.header-div-section .btn{
+
+.header-div-section .btn {
     margin-bottom: 32px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 244px;
+    height: 65px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
 }
+
+/* working with the header div container end here */
+
+/* Main section start here... */
+
