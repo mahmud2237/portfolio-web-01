@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    font-family: "Azeret Mono", monospace;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Header start... */
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Header start here... */
 /* working with the header nav container start here */
 header {
     margin-bottom: 75px;
@@ -53,8 +53,8 @@ nav li a {
 
 }
 
-/* working with the header nav container end here */
-
+/* working with the header nav container Ends here */
+/* ------------------------------------------------- */
 /* working with the header div container start here */
 .header-div-section {
     margin-top: 36px;
@@ -93,7 +93,7 @@ nav li a {
 }
 
 /* working with the header div container end here */
-
+/* ------------------------------------------------- */
 /* Main section start here... */
 
 /* Main-section-one Start Here... */
@@ -178,7 +178,7 @@ main {
 }
 
 /* Main-section-one End here.... */
-
+/* ------------------------------------------------- */
 /* Main-section-two start here.... */
 .main-section-two {
     margin-top: 90px;
@@ -215,8 +215,122 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
 }
-.main-section-two-2 iframe{
+
+.main-section-two-2 iframe {
     border-radius: 16px;
 }
-/* Main-section-two End here.... */
 
+/* Main-section-two End here.... */
+/* ------------------------------------------------- */
+/* main-section-three Start Here... */
+.main-section-three {
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* border: 3px solid green; */
+}
+
+.main-section-three1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.main-section-three1 h1 {
+    margin-bottom: 24px;
+}
+
+.main-section-three2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.main-section-three2-1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    background: #FF4C1E0D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.main-section-three2-2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    background: #004CE80D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.main-section-three2-3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    background: #FFDF000D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* main-section-three Ends Here... */
+/* ------------------------------------------------- */
+/* main-section-four Start Here... */
+
+/* It's Optional... */
+
+/* main-section-four Ends Here... */
+/* ------------------------------------------------- */
+/* main-section-five Start Here... */
+.main-section-five {
+    background: #00000033;
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+
+}
+.main-section-five h1 p div {
+    margin-top: 400px;
+}
+
+/* main-section-five Ends Here... */
+/* ------------------------------------------------- */
+/* Footer Start Here... */
+footer {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+
+/* Footer Ends Here... */
+/* ------------------------------------------------- */
