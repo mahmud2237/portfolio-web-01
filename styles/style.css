@@ -105,6 +105,13 @@ main {
     /* border: 5px solid red; */
 }
 
+/* .main-section-one {
+    width: 1200px;
+    height: 100%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+} */
+
 .main-section-div1 {
     display: flex;
     flex-direction: column;
@@ -303,17 +310,64 @@ main {
     background: #00000033;
     background-image: url(/assets/handshake.jpg);
     background-repeat: no-repeat;
-    
+    object-fit: cover;
     width: 1140px;
-    height: 313px;
+    height: 550px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border-radius: 16px;
 
 }
-.main-section-five h1 p div {
+
+.main-section-five1 {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+/* .main-section-five h1 p div {
     margin-top: 400px;
+} */
+
+.main-section-five2 {
+    width: 548px;
+    height: 57px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10;
+    padding: 19px 20px;
+    /* margin: 0px 16px; */
+    /* border: 3px solid rebeccapurple; */
+
+}
+
+.main-section-five2 .btn {
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+}
+
+.main-section-five2 .input {
+    width: 648px;
+    height: 57px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 19px 20px;
+    margin: 0px 16px;
+    border: none;
 }
 
 /* main-section-five Ends Here... */
